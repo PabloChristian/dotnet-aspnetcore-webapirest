@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiREST.Application", "WebApiREST\WebApiREST.Application.csproj", "{52AB5E82-2B4F-4AB5-BFCB-B8F37645AE9C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiREST.Application", "WebApiREST.Application\WebApiREST.Application.csproj", "{52AB5E82-2B4F-4AB5-BFCB-B8F37645AE9C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiREST.Domain", "WebApiREST.Domain\WebApiREST.Domain.csproj", "{F804F8A7-FCC7-481C-A93D-97C6FE541632}"
 EndProject
