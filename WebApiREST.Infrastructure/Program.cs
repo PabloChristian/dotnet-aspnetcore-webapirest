@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using WebApiREST.Infrastructure.FakeModels;
 
 namespace WebApiREST.Infrastructure
 {
@@ -14,6 +15,7 @@ namespace WebApiREST.Infrastructure
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
+            FakeProdutos.CarregarListaFakeProdutos();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>

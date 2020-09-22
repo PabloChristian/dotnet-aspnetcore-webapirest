@@ -14,7 +14,7 @@ namespace WebApiREST.Application
                 //Mappers
 
                 //Servicos
-                services.AddScoped<ClienteService, ClienteService>();
+                services.AddScoped<ProdutoService, ProdutoService>();
 
                 //Repositorios
 

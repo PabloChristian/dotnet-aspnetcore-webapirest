@@ -14,6 +14,22 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "WebApiREST.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "WebApiREST.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WebApiREST.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebApiREST.Infrastructure.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -22,11 +38,17 @@
       "type": "project",
       "path": "../WebApiREST.Domain/WebApiREST.Domain.csproj",
       "msbuildProject": "../WebApiREST.Domain/WebApiREST.Domain.csproj"
+    },
+    "WebApiREST.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../WebApiREST.Infrastructure/WebApiREST.Infrastructure.csproj",
+      "msbuildProject": "../WebApiREST.Infrastructure/WebApiREST.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "WebApiREST.Domain >= 1.0.0"
+      "WebApiREST.Domain >= 1.0.0",
+      "WebApiREST.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -36,11 +58,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\Pessoal\\WebApiREST\\WebApiREST\\WebApiREST.Application.csproj",
+      "projectUniqueName": "C:\\Projetos\\Pessoal\\WebApiREST\\WebApiREST.Application\\WebApiREST.Application.csproj",
       "projectName": "WebApiREST.Application",
-      "projectPath": "C:\\Projetos\\Pessoal\\WebApiREST\\WebApiREST\\WebApiREST.Application.csproj",
+      "projectPath": "C:\\Projetos\\Pessoal\\WebApiREST\\WebApiREST.Application\\WebApiREST.Application.csproj",
       "packagesPath": "C:\\Users\\PABLO-DESENV\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\Pessoal\\WebApiREST\\WebApiREST\\obj\\",
+      "outputPath": "C:\\Projetos\\Pessoal\\WebApiREST\\WebApiREST.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -62,6 +84,9 @@
           "projectReferences": {
             "C:\\Projetos\\Pessoal\\WebApiREST\\WebApiREST.Domain\\WebApiREST.Domain.csproj": {
               "projectPath": "C:\\Projetos\\Pessoal\\WebApiREST\\WebApiREST.Domain\\WebApiREST.Domain.csproj"
+            },
+            "C:\\Projetos\\Pessoal\\WebApiREST\\WebApiREST.Infrastructure\\WebApiREST.Infrastructure.csproj": {
+              "projectPath": "C:\\Projetos\\Pessoal\\WebApiREST\\WebApiREST.Infrastructure\\WebApiREST.Infrastructure.csproj"
             }
           }
         }

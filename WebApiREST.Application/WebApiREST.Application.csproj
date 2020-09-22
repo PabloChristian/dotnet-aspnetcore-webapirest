@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\WebApiREST.Domain\WebApiREST.Domain.csproj" />
+    <ProjectReference Include="..\WebApiREST.Infrastructure\WebApiREST.Infrastructure.csproj" />
   </ItemGroup>
 
 
